@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    filter: blur(30px);
+    position: absolute;
+    z-index: -1;
+}
+
+.loading-text {
+    font-family: 'Sono', sans-serif;
+    font-size: 50 px;
+    color: #ffffff;
+}

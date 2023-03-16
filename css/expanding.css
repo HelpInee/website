@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+body {
+    font-family: 'Sono', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/space-galaxy-background_53876-93121.jpg?w=900&t=st=1678831203~exp=1678831803~hmac=3920d42112219723efa9d4de51dd0c0bc4ea1de181c8dbd05ade3dd4371be2ca');
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
+    position: relative;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 10px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    position: relative;
+    transition: all 1.2s ease-out;
+}
+
+.panel h3 {
+    font-size: 28px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 10;
+}
+
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.5s ease-in 0.5s;
+}
