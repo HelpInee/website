@@ -9,14 +9,25 @@
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap');
 
     body {
+        display: flex;
         font-family: 'Roboto Condensed', sans-serif;
-        background-image: url('https://slidemodel.com/wp-content/uploads/7382-01-duotone-gradients-powerpoint-templates-16x9-12.jpg');
-        text-align: center;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        overflow: hidden;
         font-size: 50px;
         color: #033c91;
+    }
+
+    .bg {
+        background-image: url('https://slidemodel.com/wp-content/uploads/7382-01-duotone-gradients-powerpoint-templates-16x9-12.jpg');
         background-position: center;
         background-repeat: none;
         background-size: cover;
+        position: absolute;
+        z-index: -1;
         width: 100vw;
         height: 100vh;
     }
@@ -35,6 +46,7 @@
         <br>
         <button onclick="document.location='Navigation1.html'">Navigation1</button>
         </div>
+    <div class="bg"></div>
 </body>
 
 
