@@ -13,9 +13,9 @@ body {
 }
 
 .btn {
-    background-color: rgb(148, 83, 252);
+    background-color: rgb(131, 18, 252);
     color: white;
-    border: 0;
+    border: .5;
     border-radius: 5px;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 1rem;
