@@ -31,7 +31,7 @@ body {
 .circle {
     height: 200px;
     width: 200px;
-    background-color: blue;
+    background-color: #ff7979;
     border-radius: 50%;
     transition: transform 1s linear;
     position: relative;
