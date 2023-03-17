@@ -23,6 +23,14 @@ body {
 
 .loading-text {
     font-family: 'Sono', sans-serif;
-    font-size: 50 px;
+    font-size: 60 px;
     color: #ffffff;
+}
+
+.button {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    z-index: 1;
+    cursor: pointer;
 }
