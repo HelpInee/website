@@ -10,7 +10,6 @@
 
     body {
         display: flex;
-        font-family: 'Roboto Condensed', sans-serif;
         display: flex;
         height: 100vh;
         align-items: center;
@@ -31,22 +30,36 @@
         width: 100vw;
         height: 100vh;
     }
+
+    .text {
+        font-family: 'Roboto Condensed', sans-serif;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: -1;
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .button{
+
+    }
 </style>
 
 <body>
-    <br>Welcome
     <div class="button">
-        <button onclick="document.location='search.html'">Search</button>
-        <br>
+        <button onclick="document.location='search.html'"><b>Search</b></button>
+
         <button onclick="document.location='loading.html'">Loading</button>
-        <br>
+
         <button onclick="document.location='expanding.html'">Expanding</button>
-        <br>
+
         <button onclick="document.location='progress.html'">Progress</button>
-        <br>
+
         <button onclick="document.location='Navigation1.html'">Navigation1</button>
         </div>
     <div class="bg"></div>
+    <div class="text">Welcome to my website</div>
 </body>
 
 
