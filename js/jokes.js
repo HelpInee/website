@@ -4,7 +4,7 @@ const jokeBtn = document.getElementByid('jokeBtn')
 jokeBtn.addEventListener('click', generateJoke)
 
 async function generateJoke(){
-    const response = await featch('https://icanhazdadjoke.com', {
+    const response = await fetch('https://icanhazdadjoke.com', {
         headers: {Accept: 'application/json'}
     })
 
