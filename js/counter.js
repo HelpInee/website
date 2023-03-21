@@ -9,7 +9,7 @@ counters.forEach(counter => {
 
         const increment = 1
         if (c < target) {
-            counter.innerText = ``
+            counter.innerText = `{$Math.ceil(c + increm)}`
         }
     }
 
