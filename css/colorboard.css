@@ -15,8 +15,8 @@ body {
     max-width: 400px;
 }
 .square {
-    height 16px;
-    width 16px
+    height: 16px;
+    width: 16px;
     margin: 20px;
     background-color: #1d1d1d;
     transition: 2s ease;
