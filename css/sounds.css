@@ -38,5 +38,5 @@ body {
 
 .btn1:hover {
     background-color: #8540c2;
-    
+    transform:scale(1.1, 1.1);
 }
