@@ -33,4 +33,13 @@ body {
 
 .btn1 {
     background-color: #ffd154;
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.btn1:hover {
+    background-color: #dbdbdb;
 }
