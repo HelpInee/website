@@ -26,14 +26,3 @@ body {
 .btn:hover {
     opacity: 0.8;
 }
-
-.buttons {
-    background-color: #ae12fc;
-    color: white;
-    border: .5;
-    border-radius: 5px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 1rem;
-    padding: 1.5 rem 3 rem;
-    font-size: 1.2rem
-}
