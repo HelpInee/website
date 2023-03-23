@@ -10,7 +10,6 @@
 
     body {
         display: flex;
-        display: flex;
         height: 100vh;
         align-items: center;
         justify-content: center;
@@ -40,17 +39,36 @@
         opacity: 0.6;
     }
 
-    .btn{
-        background-color: #8960f0;
-        color: white;
+    .btn1{
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #ffd154;
+        color: black;
         border: 0;
         border-radius: 10px;
         padding: 10px 10px;
         font-size: 16px;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        cursor: pointer;
     }
+
+    .btn1:hover{
+        background-color: white;
+        color: gray;
+    }
+
+    @media (max-width: 580px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+
 </style>
 
 <body>
+
         <button class="button btn1" onclick="document.location='search.html'"><b>Search</b></button>
 
         <button class="button btn1" onclick="document.location='loading.html'"><b>Loading</b></button>
@@ -64,7 +82,7 @@
         <button class="buttin btn1" onclick="document.location='sounds.html'"><b>Sounds</b></button>
 
         <button class="button btn1" onclick="document.location='jokes.html'"><b>Jokes</b></button>
-        
+
     <div class="bg"></div>
     <div class="text"><b><i>Welcome to my website</i></b></div>
 </body>
