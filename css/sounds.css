@@ -27,6 +27,8 @@ body {
     opacity: 0.8;
 }
 
-fa  {
-
+.btn1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
