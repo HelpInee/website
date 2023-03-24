@@ -39,5 +39,13 @@ input:focus {
     left: 20px;
     top: 20px;
     color: maroon;
-    background: black;
+    background: #FA8072;
+    border-color: red;
+}
+
+.btn1:hover {
+    background-color: maroon;
+    color: red;
+    border-color: maroon;
+    cursor: pointer;
 }
