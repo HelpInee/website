@@ -25,3 +25,16 @@ body {
 .square:hover {
     transition-duration: 0s;
 }
+
+.btn1 {
+    font-size: 30px;
+    bottom: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+@media (max-width: 580px) {
+    body {
+        flex-direction: column;
+    }
+}
