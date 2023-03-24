@@ -11,3 +11,30 @@ body {
     overflow: hidden;
     margin: 0;
 }
+
+.container {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, .3) /* 4th value is opacity */
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: darksalmon;
+    border: none;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn1 {
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+}
