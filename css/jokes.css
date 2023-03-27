@@ -53,5 +53,7 @@ h3 {
 }
 
 .btn1:hover {
-    
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
 }
