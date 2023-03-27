@@ -42,4 +42,5 @@ body {
 
 .btn1:hover {
     background-color: #dbdbdb;
+    cursor: pointer;
 }
